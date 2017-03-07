@@ -11,4 +11,42 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="sixthsense.caretest.RegisterGroupActivity">
 
+    <TextView
+        android:text="Group Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:id="@+id/GroupNameTextBox"
+        android:hint="Group Name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <AutoCompleteTextView
+        android:text="Contact Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:id="@+id/ContactNameInGroupTextBox"
+        android:hint="Contact Name"
+        android:layout_below="@+id/GroupNameTextBox"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:text="Add More People"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:id="@+id/button"
+        android:layout_below="@+id/ContactNameInGroupTextBox"
+        android:layout_centerHorizontal="true"
+        android:hint="Add More People"/>
+
+    <Button
+        android:text="Add Group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_alignStart="@+id/ContactNameInGroupTextBox"
+        android:layout_marginTop="55dp"
+        android:id="@+id/AddGroupButton"/>
 </RelativeLayout>

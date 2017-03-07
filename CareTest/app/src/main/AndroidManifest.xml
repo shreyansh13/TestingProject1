@@ -28,6 +28,10 @@
         </activity>
         <activity android:name=".RegisterGroupActivity">
         </activity>
+        <activity android:name=".LocationListDisplayActivity">
+        </activity>
+        <activity android:name=".LocationInfoEditor">
+        </activity>
     </application>
 
 </manifest>

@@ -11,4 +11,43 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="sixthsense.caretest.LocationInfoEditor">
 
+    <Button
+        android:text="GetCurrentLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:id="@+id/GetCurrentLocationButton"/>
+
+    <Button
+        android:text="Save Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SaveLocationButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="127dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Group Name"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/LocationNameEditText"
+        android:id="@+id/GroupNameEditText"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Location Name"
+        android:ems="10"
+        android:id="@+id/LocationNameEditText"
+        android:layout_marginBottom="36dp"
+        android:layout_above="@+id/GroupNameEditText"
+        android:layout_centerHorizontal="true"/>
+
 </RelativeLayout>

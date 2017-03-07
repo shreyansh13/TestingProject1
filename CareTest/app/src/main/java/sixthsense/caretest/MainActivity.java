@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity
         {
             public void onClick(View v)
             {
-                Intent intent = new Intent(getBaseContext(), GroupListDisplayActivity.class);
+                Intent intent = new Intent(getBaseContext(), SafeContactListDisplayActivity.class);
                 startActivity(intent);
             }
         });
