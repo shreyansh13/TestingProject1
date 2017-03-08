@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CareTest.iml" filepath="$PROJECT_DIR$/CareTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carebackend/carebackend.iml" filepath="$PROJECT_DIR$/carebackend/carebackend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datamodels/datamodels.iml" filepath="$PROJECT_DIR$/datamodels/datamodels.iml" />
     </modules>
   </component>
 </project>
